@@ -3,8 +3,8 @@ import models
 import tensorflow as tf
 
 con = config.Config()
-con.set_in_path("./data/FB15K/")
-con.set_out_path("./data/FB15K/")
+con.set_in_path("./benchmarks/FB15K/")
+con.set_out_path("./benchmarks/FB15K/")
 con.set_work_threads(1)
 con.set_export_files("./res/model.vec")
 con.set_export_steps(100)
